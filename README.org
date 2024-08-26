@@ -1,0 +1,21 @@
+#+TITLE:     clotorctl
+#+SUBTITLE:  clojure library to control tor via unix domain socket
+#+KEYWORDS:  clojure, tor, control, unix domain socket
+#+LANGUAGE:  en
+
+NOTE: this library needs work
+
+clotorctl is a simple library to control tor via unix domain socket. only a few
+basic commands are currently supported
+
+* supported commands
+** add-onion
+** delete-onion
+
+* installation
+#+BEGIN_SRC sh
+  lein install
+#+END_SRC
+
+* license
+clotorctl is licensed under the Apache License, v2.
